@@ -1,0 +1,96 @@
+html {
+    background-color: #000000; /* Negro */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: transparent;
+    color: #ffffff; /* Blanco */
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: -1px;
+    border-right: 1px solid #eee;
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco */
+}
+
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff; /* Blanco */
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #ffffff; /* Blanco */
+    background-color: #333333; /* Gris oscuro */
+}
+
+.nav > li > a:focus, 
+.nav > li > a:hover {
+    color: #ffffff; /* Blanco */
+    background-color: #555555; /* Gris medio */
+}
+
+.navbar-inverse {
+    background-color: #000000; /* Negro */
+    border-color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff; /* Blanco */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff; /* Blanco */
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff; /* Blanco */
+}
+
+.btn-success, .panel-success {
+    background-color: #27c24c !important;
+    border-color: #27c24c !important;
+    color: #ffffff !important; /* Blanco */
+}
+
+.btn-info, .panel-info {
+    background-color: #555555; /* Gris medio */
+    border-color: #555555;
+    color: #ffffff !important; /* Blanco */
+}
+
+.btn-dark, .panel-dark {
+    background-color: #000000; /* Negro */
+    border-color: #000000;
+    color: #ffffff !important; /* Blanco */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco */
+    padding-top: 15px;
+}
