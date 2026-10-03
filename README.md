@@ -1,4 +1,3 @@
-@'
 # Work Order Management System
 
 Web-based work order management system developed with PHP and MySQL.
@@ -13,7 +12,7 @@ Web-based work order management system developed with PHP and MySQL.
 - Work order editing and deletion
 - Reports and data filtering
 - PDF generation for work orders
-- MySQL stored procedures for database operations
+- MySQL database integration
 
 ## Tech Stack
 
@@ -28,10 +27,9 @@ Web-based work order management system developed with PHP and MySQL.
 
 ```text
 BD/
-├── Database connection
 ├── CRUD operations
 ├── Authentication and validation
-└── Stored procedure integration
+└── Database configuration
 
 Fronted/
 ├── Customer management
@@ -45,3 +43,21 @@ img/
 jquery/
 plugins/
 popper/
+codigo.js
+index.html
+index.php
+```
+
+## Local Setup
+
+1. Install PHP, MySQL and a local development environment such as XAMPP.
+2. Create a MySQL database named `bd_ordentrabajo`.
+3. Configure the local database connection in `BD/config.php`.
+4. Start Apache and MySQL.
+5. Open the application through the local server.
+
+> `BD/config.php` contains local database configuration and is excluded from version control. Use `BD/config.example.php` as a reference.
+
+## Purpose
+
+Academic software project developed to manage customers, quotations and work orders through a web-based application.
